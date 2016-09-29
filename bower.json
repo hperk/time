@@ -1,0 +1,6 @@
+{
+  "name": "timesheet",
+  "dependencies": {
+    "elessar": "^1.8.5"
+  }
+}
