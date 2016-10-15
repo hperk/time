@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('time', function () {
     return view('time');
 });
+
+
+Route::get('sangarcorps/create','SangarcorpController@create');
+Route::post('sangarcorps/store','SangarcorpController@store');
+Route::get('sangarcorps/{sangarcorps}/show','SangarcorpController@show');
